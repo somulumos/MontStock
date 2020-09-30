@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MontStock: the online destination for all your Montresor needs</title>
+<style>
+
+body {
+    background-color: lightgray;
+    font-family: monospace;
+    font-size: small;
+    text-align: justify;
+}
+
+@keyframes backgroundcolor {
+    0% {background-color: grey;}
+    50% {background-color: white;}
+    100% {background-color: grey;}
+}
+
+div.header {
+    text-align: center;
+    font-size: 8vw;
+    animation-name: backgroundcolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 5px double;
+    border-color: greenyellow;
+    border-radius: 25%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+div.headersub {
+    font-size: 1vw;
+    padding: 1px;
+}
+
+div.nav {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1;
+    background-color: transparent;
+    border: 5px double;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-radius: 5%;
+    text-align: left;
+    width: auto;
+    margin: auto;
+    position: fixed;
+    text-decoration: none;
+    display: block;
+    font-size: 2vw;
+}
+
+a {
+    color: black;
+    background-color: greenyellow;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+    color: greenyellow;
+}
+
+img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25%
+}
+
+div.main {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 6vw;
+}
+
+div.moods {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    display: grid;
+    position: relative;
+    text-align: center;
+    font-size: 3vw;
+}
+
+img.moods {
+    object-fit: cover;
+    width: 30vw;
+    height: 30vh;
+}
+
+div.center {
+position: absolute;
+top: 50%;
+bottom: 50%;
+}
+
+div.mainhead {
+    text-align: center;
+    font-size: 7vw;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header" align="center">MontStock
+    <div class="headersub">
+        the online destination for all your Montresor needs
+    </div>
+</div>
+<div class="nav">
+<a href="">Photos</a>
+<br>
+<a href="">Manifesto</a>
+<br>
+<a href="">Meow Translator</a>
+<br>
+<a href="">Contact Monty</a>
+<br>
+<a href="">Affiliates</a>
+<br>
+</div>
+
+<div class="main">
+
+<img src="https://lh3.googleusercontent.com/proxy/EwLPe3Pj_ZKtp9t_zo46Wqrbaq3322jJzfzGnlIH6jCVSC-Xs-QkUwfjKdm7GW1NbeLvQRfVfkLg15XbSzJvy-T2WDs1YYX4FRqMnUsQMdHTbFI28HKCWCDNaE9vl6Dp_ObouDexPdMOGD-mJM5NiNAzCvKDBQ" alt="not quite Monty">
+<div class="mainhead">Take the Quiz!</div>
+Which Monty Mood Are You?
+<div class="moods">
+    <a href=""><img class="moods" src="https://cf.ltkcdn.net/cats/images/orig/259025-1600x1030-gorgeous-grey-cat-breeds.jpg" alt="friendly mood"><div class="center">Friendly</div></a>
+    <a href=""><img class="moods" src="https://www.purina.co.uk/sites/g/files/mcldtz2481/files/2019-11/russian-blue-cat.jpg" alt="concerned mood"><div class="center"></div>Concerned</a>
+    <a href=""><img class="moods" src="https://www.purina.co.uk/sites/g/files/mcldtz2481/files/2019-11/british-shorthair-cat.jpg" alt="sick of your shit mood"><div class="center"></div>Sick of your shit</a>
+
+</div>
+</div>
+
+</body>
+
+</html>
